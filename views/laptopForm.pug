@@ -1,0 +1,118 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='')  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8(lang='')  
+//if IE 8
+  html.no-js.lt-ie9(lang='')  
+// [if gt IE 8] <!
+html.no-js(lang='')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Recyclotron
+    link(rel='stylesheet', href='./stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='./stylesheets/flexslider.css')
+    link(rel='stylesheet', href='./stylesheets/jquery.fancybox.css')
+    link(rel='stylesheet', href='./stylesheets/main.css')
+    link(rel='stylesheet', href='./stylesheets/responsive.css')
+    link(rel='stylesheet', href='./stylesheets/animate.min.css')
+    link(rel='stylesheet', href='./stylesheets/font-icon.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+  body
+    // header top section
+    section.banner(role='banner')
+      header#header
+        .header-content.clearfix
+          a(href='./recyclotron') Recyclotron
+          nav.navigation(role='navigation')
+            ul.primary-nav
+              li
+                a(href='./projects') Sell 
+              li
+                a(href='./signup') Login/Sign Up
+              li
+                a(href='./blog') About Us
+              li
+                a(href='./ContactUs') Contact Us
+          a.nav-toggle(href='#')
+            | Menu
+            span
+    // header top section
+    // header content section
+    section#hero.section
+      .container
+        .row
+          .col-md-7.col-sm-6.hero
+            .hero-content
+              h1 Sell your old laptop today
+              form
+                .form-group
+                label(for='exampleInputEmail1') Email address
+                input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+                small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+                .form-group
+                label(for='exampleInputPassword1') Password
+                input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+                .form-group
+                label(for='exampleSelect1') How old is your laptop?
+                select#exampleSelect1.form-control
+                    option 1
+                    option 2
+                    option 3
+                    option 4
+                    option 5
+                .form-group
+                label(for='exampleSelect2') Select the brand
+                select#exampleSelect2.form-control(multiple='')
+                    option Apple
+                    option Dell
+                    option Lenovo
+                    option HP
+                    option Asus
+                .form-group
+                label(for='exampleTextarea') Description of your product
+                textarea#exampleTextarea.form-control(rows='3')
+                .form-group
+                legend Some Important Checks
+                .form-check
+                    label.form-check-label
+                    input#optionsChecks1.form-check-input(type='checkbox')
+                    |        Does your laptop switch on?
+                .form-check
+                    label.form-check-label
+                    input#optionsChecks2.form-check-input(type='checkbox')
+                    |         Does the battery of your laptop work?
+                .form-check.disabled
+                    label.form-check-label
+                    input#optionsChecks3.form-check-input(type='checkbox')
+                    |         Is everything intact?
+                .form-check
+                button.btn.btn-primary(type='submit') Submit
+ 
+            // hero
+    footer.footer
+      .container
+        .col-md-6.left
+          h4 Let's work together
+          p
+            | Call: 8668362675 OR Email : 
+            a(href='mailto:hello@agency.com')  abhilasha.jha2015@vit.ac.in 
+        .col-md-6.right
+          p
+            | © 2017 All rights reserved.
+            br
+            |         Made with 
+            i.fa.fa-heart.pulse
+            |  by 
+            a(href='http://www.abhilasha-96.github.io/') Abhilasha Jha
+    // footer section
+    // JS FILES
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='./javascripts/bootstrap.min.js')
+    script(src='./javascripts/jquery.fancybox.pack.js')
+    script(src='./javascripts/retina.min.js')
+    script(src='./javascripts/modernizr.js')
+    script(src='./javascripts/main.js')

@@ -1,0 +1,99 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7(lang='')  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8(lang='')  
+//if IE 8
+  html.no-js.lt-ie9(lang='')  
+// [if gt IE 8] <!
+html.no-js(lang='')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title About Us
+    link(rel='stylesheet', href='./stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='./stylesheets/flexslider.css')
+    link(rel='stylesheet', href='./stylesheets/jquery.fancybox.css')
+    link(rel='stylesheet', href='./stylesheets/main.css')
+    link(rel='stylesheet', href='./stylesheets/responsive.css')
+    link(rel='stylesheet', href='./stylesheets/animate.min.css')
+    link(rel='stylesheet', href='./stylesheets/font-icon.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
+  body
+    // header top section
+    section.banner(role='banner')
+      header#header
+        .header-content.clearfix
+          a(href='./recyclotron') Recyclotron
+          nav.navigation(role='navigation')
+            ul.primary-nav
+              li
+                a(href='./projects') Sell 
+              li
+                a(href='./signup') Login/Sign Up
+              li
+                a(href='./blog') About Us
+              li
+                a(href='./ContactUs') Contact Us
+          a.nav-toggle(href='#')
+            | Menu
+            span
+    // header top section
+    // header content section
+    section#works-info.section
+      .container
+        .row
+          .col-md-7.col-sm-6.hero
+            .hero-content
+              h4 Who are we?
+              p
+                | Nullam at enim mauris. Donec et nunc ipsum. Suspendi tempus fringilla ipsu Cras metus euismod velit gravida at nunc ipsum.
+            // hero
+          
+    // header content section
+    // portfolio grid section
+    section#work-detail
+      .container
+        hr
+        .row
+          .col-md-12.work-detail
+            .work-detail
+              img.img-responsive(src='images/portfolio/work-1.jpg', alt='')
+              p.extra-padding
+                | Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus sagittis molestie est vel facilisis. Nunc vulputate est ut erat aliquam, sed elementum justo bibendum. Quisque non mattis mauris, eget venenatis quam.
+    // portfolio grid section
+    // service section
+    section#backto.work-detail.section
+      .container
+        .row
+          .col-md-8.col-md-offset-2.text-center.section
+            a(href='./recyclotron')
+              i.fa.fa-th.fa-2x
+            p Back to homepage
+    // service section
+    // footer section
+    footer.footer
+      .container
+        .col-md-6.left
+          h4 Let's work together
+          p
+            | Call: 8668362675 OR Email : 
+            a(href='mailto:hello@agency.com')  abhilasha.jha2015@vit.ac.in 
+        .col-md-6.right
+          p
+            | © 2017 All rights reserved.
+            br
+            |         Made with 
+            i.fa.fa-heart.pulse
+            |  by 
+            a(href='http://www.abhilasha-96.github.io/') Abhilasha Jha
+    // footer section
+    // JS FILES
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script(src='./javascripts/bootstrap.min.js')
+    script(src='./javascripts/jquery.fancybox.pack.js')
+    script(src='./javascripts/retina.min.js')
+    script(src='./javascripts/modernizr.js')
+    script(src='./javascripts/main.js')
