@@ -37,6 +37,13 @@ router.get('/signup', function(req, res, next) {
   res.render('signup');
 });
 
+/*For the schedule a pickup*/ 
+
+router.get('/schedule', function(req, res, next) {
+  res.render('schedule');
+});
+
+
 /*For the schedule a meeting page*/
 router.get('/ContactUs', function(req, res, next) {
   res.render('ContactUs');
